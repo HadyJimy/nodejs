@@ -1,6 +1,6 @@
 const generateJwt = require("../utilize/generate.jwt");
 const jwt=require('jsonwebtoken')
-const httpstatustext=require('f:/tasks/day2/code-zone-project/utilize/httpStatusText');
+const httpstatustext=require('f:/tasks/day2/code-zone/nodejs/utilize/httpStatusText');
 const apperror = require("../utilize/apperror");
 
 const verifyToken=(req,res,next)=>{
