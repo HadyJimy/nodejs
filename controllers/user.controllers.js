@@ -1,8 +1,8 @@
 const asyncwrapper = require("../middlewares/asyncwrapper");
 const User=require('../models/user.model');
 const AppError = require("../utilize/apperror");
-const httpstatustext=require('f:/tasks/day2/code-zone/nodejs/utilize/httpStatusText');
 const bcrypt=require('bcryptjs');
+const httpstatustext=require('../utilize/httpstatustext.js');
 const jwt = require("jsonwebtoken");
 const generateJwt = require("../utilize/generate.jwt");
 

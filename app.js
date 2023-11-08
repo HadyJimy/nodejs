@@ -45,7 +45,7 @@ const cors=require('cors')
 const app = express();
 const mongoose=require('mongoose');
 const url=process.env.MONGO_URL;
-const httpstatustext=require('f:/tasks/day2/code-zone/nodejs/utilize/httpStatusText');
+const httpstatustext=require('./utilize/httpstatustext.js');
 const userRouter=require('./routes/usre.route')
 
 mongoose.connect(url).then(()=>{

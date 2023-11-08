@@ -1,6 +1,6 @@
 const {validationResult}=require('express-validator');
 const Course=require('../models/course.model');
-const httpstatustext=require('f:/tasks/day2/code-zone/nodejs/utilize/httpStatusText');
+const httpstatustext=require('../utilize/httpstatustext.js');
 const asyncwrapper = require('../middlewares/asyncwrapper');
 const AppError=require('../utilize/apperror')
 
